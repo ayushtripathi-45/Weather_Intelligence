@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-ink dark:text-sky bg-sky dark:bg-night transition-colors duration-300;
+  }
+  h1, h2, h3 {
+    @apply font-display;
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  ::selection {
+    @apply bg-amber/30;
+  }
+  *:focus-visible {
+    outline: 2px solid #F5A524;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply border border-slate-200 dark:border-white/10 bg-paper dark:bg-dusk/40 rounded-lg;
+  }
+  .divider {
+    @apply border-t border-slate-200 dark:border-white/10;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-ink dark:bg-amber text-sky dark:text-night px-4 py-2.5 text-sm font-medium hover:opacity-90 transition disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-slate-300 dark:border-white/20 px-4 py-2.5 text-sm font-medium hover:bg-slate-100 dark:hover:bg-white/5 transition disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .input-field {
+    @apply w-full rounded-md border border-slate-300 dark:border-white/15 bg-paper dark:bg-night px-4 py-2.5 text-sm placeholder:text-mist focus:border-amber outline-none;
+  }
+  .label {
+    @apply block text-sm text-mist mb-1;
+  }
+}
