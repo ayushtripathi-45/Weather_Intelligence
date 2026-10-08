@@ -3,7 +3,7 @@
 # 🌦️ Weather Intelligence Platform
 
 **A next-generation, full-stack weather intelligence suite powered by real-time analytics, automated reports, and multimedia exploration.**
-
+   
 [![GitHub stars](https://img.shields.io/github/stars/ayushtripathi-45/Weather_Intelligence?style=for-the-badge&logo=github&color=0ea5e9)](https://github.com/ayushtripathi-45/Weather_Intelligence/stargazers)
 [![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
